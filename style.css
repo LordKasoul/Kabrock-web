@@ -1,0 +1,83 @@
+html{
+    background-color:  #747474;
+    min-height: 100%;
+}
+
+header 
+{
+    width:100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(#111811, 10%, #2c442e);
+}
+
+.header_div{
+    margin-left: 50px;
+    height: 100%;
+    width:100%;
+}
+
+.topright{
+    display: flex;
+    align-content: flex-end;
+    margin-left: auto;
+    margin-right: 4vw;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(#6e1111);
+    margin: 0px;
+}
+
+.logo{
+	max-height: 300px;
+	max-width: 220px;
+    vertical-align: middle; 
+}
+
+p, h1, h2, h3, ul, li{
+    color: blanchedalmond;
+    line-height: 1.8em;
+    font-family: 'Permanent Marker', cursive;
+    max-width: 90vw;
+    font-size: 2em;
+    margin: 0px;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0px;
+    max-width: 90vw;
+
+}
+
+.options{
+    margin-top: 3vw;
+    margin-left:5vw;
+    text-decoration: none;
+}
+.librairie{
+    height: 2vw;
+    width: 12vw;
+
+}
+.bot{
+    height: 1.5vw;
+    width: 5vw;
+}
+.web{
+    height: 1.5vw;
+    width: 10vw;
+}
+.bts{
+    text-decoration: none;
+    height: 1.5vw;
+    width: 7vw;
+}
+
+/*Cours.php*/
+.media{
+    margin-top: 2vw;
+}
