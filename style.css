@@ -85,6 +85,10 @@ h1{
 }
 
 /*Cours.php*/
+.breadcrumbs{
+    display: inline;
+}
+
 .breadcrumbs *{
     display: inline;
 }
