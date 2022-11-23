@@ -41,47 +41,25 @@ body{
 p, a, h1, h2, h3, ul, li{
     color: blanchedalmond;
     font-family: 'Permanent Marker', cursive;
-    max-width: 90vw;
     font-size: 2rem;
     margin: 0px;
     text-decoration: none;
 }
 li{
-    margin-top: 0.4em;
+    margin-top: 0.5em;
     height: 1.5vw;
-    width: 12vw;
 }
 
 h1{
     font-size: 3em;
     margin: 0px;
     max-width: 90vw;
-
 }
 
 .options{
     margin-top: 3vw;
     margin-left:5vw;
-
     text-decoration: none;
-}
-.librairie{
-    height: 1.5vw;
-    width: 12vw;
-
-}
-.bot{
-    height: 1.5vw;
-    width: 5vw;
-}
-.web{
-    height: 1.5vw;
-    width: 10vw;
-}
-.bts{
-    text-decoration: none;
-    height: 1.5vw;
-    width: 10vw;
 }
 
 /*Cours.php*/
