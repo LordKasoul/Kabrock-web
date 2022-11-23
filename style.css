@@ -38,7 +38,7 @@ body{
     vertical-align: middle; 
 }
 
-p, a, h1, h2, h3, ul, li{
+p, a, h1, h2, h3, ul, li, form{
     color: blanchedalmond;
     font-family: 'Permanent Marker', cursive;
     font-size: 2rem;
@@ -79,3 +79,14 @@ h1{
     margin: 2vw;
 }
 
+/* Connection.php */
+
+.ZoneSaisie{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: 65vh;
+}

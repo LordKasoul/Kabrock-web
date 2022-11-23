@@ -20,17 +20,19 @@
                 <h2>Index</h2>
             </div>
             <div class="topright">
-                <<a href="connection.php"><h3>Connection<h3></a>
+                <h3>Identifie toi au lieu de regarder la<h3>
             </div>
         </header>
-
-        <div class="options">
-            <ul>
-                <li class="librairie"><p>Bibliotheque</p></li>
-                <li class="bot"><p>Bots</p></li>
-                <li class="web"><p>Sites web</p></li>
-                <li class="bts"><a href="cours.php">Cours</a></li>
-            </ul>
+        <div class="ZoneSaisie">
+            <h3>Connection</h3>
+            <form action="connection.php" method="POST">
+				<label for="fname">Nom d'utilisateur</label><br>
+				<input name="Pseudo"></input><br>
+				<label for="name">Mot de passe :</label><br>
+				<input name="MDP"></input><br>
+				<input type="submit" name="submit"/>
+			</form>
+            <h3>S'inscrire</h3>	
         </div>
     </body>
 </html>

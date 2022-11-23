@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="topright">
-                <h3>Connection<h3>
+            <a href="connection.php"><h3>Connection<h3></a>
             </div>
         </header>
         <div class="cge">
