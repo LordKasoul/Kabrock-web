@@ -85,6 +85,15 @@ h1{
 }
 
 /*Cours.php*/
-.media{
-    margin-top: 2vw;
+.breadcrumbs *{
+    display: inline;
 }
+
+.cge{
+    margin: 1vw;
+}
+
+.media{
+    margin: 2vw;
+}
+
