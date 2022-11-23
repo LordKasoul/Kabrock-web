@@ -23,6 +23,7 @@ header
     align-content: flex-end;
     margin-left: auto;
     margin-right: 4vw;
+    margin-top: 3%;
     text-decoration: none;
 }
 
@@ -37,13 +38,18 @@ body{
     vertical-align: middle; 
 }
 
-p, h1, h2, h3, ul, li{
+p, a, h1, h2, h3, ul, li{
     color: blanchedalmond;
-    line-height: 1.8em;
     font-family: 'Permanent Marker', cursive;
     max-width: 90vw;
-    font-size: 2em;
+    font-size: 2rem;
     margin: 0px;
+    text-decoration: none;
+}
+li{
+    margin-top: 0.4em;
+    height: 1.5vw;
+    width: 12vw;
 }
 
 h1{
@@ -56,10 +62,11 @@ h1{
 .options{
     margin-top: 3vw;
     margin-left:5vw;
+
     text-decoration: none;
 }
 .librairie{
-    height: 2vw;
+    height: 1.5vw;
     width: 12vw;
 
 }
@@ -74,7 +81,7 @@ h1{
 .bts{
     text-decoration: none;
     height: 1.5vw;
-    width: 7vw;
+    width: 10vw;
 }
 
 /*Cours.php*/

@@ -25,18 +25,12 @@
         </header>
 
         <div class="options">
-            <div class="librairie">
-                <p> · Bibliotheque</p>
-            </div>
-            <div class="bot">
-                <p> · Bots</p>
-            </div>
-            <div class="web">
-                <p> · Sites web</p>
-            <div  class="bts">
-                <a  href="cours.php">
-                <p> · Cours</p></a>
-            </div>
+            <ul>
+                <li class="librairie"><p>Bibliotheque</p></li>
+                <li class="bot"><p>Bots</p></li>
+                <li class="web"><p>Sites web</p></li>
+                <li class="bts"><a href="cours.php">Cours</a></li>
+            </ul>
         </div>
     </body>
 </html>
