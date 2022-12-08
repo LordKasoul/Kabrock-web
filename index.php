@@ -20,7 +20,7 @@
                 <h2>Index</h2>
             </div>
             <div class="topright">
-                <<a href="connection.php"><h3>Connection<h3></a>
+                <a href="connection.php"><h3>Connection<h3></a>
             </div>
         </header>
 

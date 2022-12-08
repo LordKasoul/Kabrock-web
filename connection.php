@@ -20,12 +20,12 @@
                 <h2>Index</h2>
             </div>
             <div class="topright">
-                <h3>Identifie toi au lieu de regarder la<h3>
+                <h3><h3>
             </div>
         </header>
         <div class="ZoneSaisie">
             <h3>Connection</h3>
-            <form action="connection.php" method="POST">
+            <form action="connection.php" method="POST" class="connect">
 				<label for="fname">Nom d'utilisateur</label><br>
 				<input name="Pseudo"></input><br>
 				<label for="name">Mot de passe :</label><br>
