@@ -1,5 +1,6 @@
 html{
-    background-color:  #747474;
+    /*background-color:  #747474;*/
+    background: linear-gradient(#060806, 20%, #4a694c);
     min-height: 100%;
 }
 
@@ -9,7 +10,8 @@ header
     height: 100%;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(#111811, 10%, #2c442e);
+    /*background: linear-gradient(#111811, 10%, #2c442e);*/
+    background-color:  #000000;
 }
 
 .header_div{
@@ -70,6 +72,11 @@ h1{
 .breadcrumbs *{
     display: inline;
 }
+.All-contents{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 
 .cge{
     margin: 1vw;
@@ -79,10 +86,22 @@ h1{
     margin: 2vw;
 }
 
+.parallelogramme{
+    margin: 5vw;
+	width:300px;
+	height:40%;
+	background:rgb(63, 47, 71);
+	-webkit-transform:skew(-30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+	transform:skew(30deg);
+}
+
 /* Connection.php */
 
 .ZoneSaisie{
     display: flex;
+    align-items: center;
     flex-direction:column;
     align-content: center;
     margin: auto;
@@ -90,6 +109,12 @@ h1{
     width: 50%;
     height: 65vh;
     font-size: 1.5rem;
+}
+
+form{
+    align-content: center;
+    font-size: 1rem;
+    margin: 2%;
 }
 
 .connect{

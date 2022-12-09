@@ -27,12 +27,18 @@
             <a href="connection.php"><h3>Connection<h3></a>
             </div>
         </header>
-        <div class="cge">
-            <h2>Cours de CGE</h2>
-            <div class="media">
-                <h3>Vidéo de présentation du "Voyage à Paris"</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8tAJ-EAPu0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="All-contents">
+            <div class="cge">
+                <h2>Cours de CGE</h2>
+                <div class="media">
+                    <h3>Vidéo de présentation du "Voyage à Paris"</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8tAJ-EAPu0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
+            <!--<div class="parallelogramme">
+                <h3>Vidéo depresentation du langague JSON</h3>
+
+            </div> -->
         </div>
     </body>
 </html>

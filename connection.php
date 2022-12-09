@@ -17,7 +17,11 @@
             <div class="header_div">
                 <h1>Kabrock Web</h1>
                 </br>
-                <h2>Index</h2>
+                <div class="breadcrumbs"> <!--Chemin d'accès--> 
+                    <h2><a href="index.php">Index</a></h2>
+                    <p>&nbsp;&gt; </p> <!--Permet de faire un espace + '>' et de finir avec un espace--> 
+                    <h2><a href="connection.php">Connection</a></h2>
+                </div>
             </div>
             <div class="topright">
                 <h3><h3>
@@ -26,7 +30,7 @@
         <div class="ZoneSaisie">
             <h3>Connection</h3>
             <form action="connection.php" method="POST" class="connect">
-				<label for="fname">Nom d'utilisateur</label><br>
+				<label for="fname">Nom d'utilisateur :</label><br>
 				<input name="Pseudo"></input><br>
 				<label for="name">Mot de passe :</label><br>
 				<input name="MDP"></input><br>
