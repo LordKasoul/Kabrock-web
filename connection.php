@@ -12,7 +12,7 @@
     <body>
         <header>        
             <a href="index.php">
-                <img class="logo" src="/image/kabrock-removebg-preview.png">
+                <img class="logo" src="/image/Kabrock-logo-remove test 2.png">
             </a>
             <div class="header_div">
                 <h1>Kabrock Web</h1>
@@ -36,7 +36,7 @@
 				<input name="MDP"></input><br>
 				<input type="submit" name="submit"/>
 			</form>
-            <h3>S'inscrire</h3>	
+            <a href="sing-in.php"><h4>S'inscrire</h4></a>	
         </div>
     </body>
 </html>

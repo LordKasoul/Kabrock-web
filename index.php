@@ -12,7 +12,7 @@
     <body>
         <header>        
             <a href="index.php">
-                <img class="logo" src="/image/kabrock-removebg-preview.png">
+                <img class="logo" src="/image/Kabrock-logo-remove test 2.png">
             </a>
             <div class="header_div">
                 <h1>Kabrock Web</h1>
@@ -26,10 +26,10 @@
 
         <div class="options">
             <ul>
-                <li class="librairie"><p>Bibliotheque</p></li>
+                <li class="librairie"><p>Bibliotheque</p><div id="Panel1" class="SecretPanel"><p id="music">Musique</p><p>&nbsp;&nbsp; </p><p id="image">Image</p></div></li>
                 <li class="bot"><p>Bots</p></li>
                 <li class="web"><p>Sites web</p></li>
-                <li class="bts"><a href="cours.php">Cours</a></li>
+                <li class="bts"><p>Cours</p><div id="Panel1" class="SecretPanel"><a href="cours.php" id="CGE">CGE</a><p>&nbsp;&nbsp; </p><a href="elec.php" id="elec">Elec</a></div></li>
             </ul>
         </div>
     </body>

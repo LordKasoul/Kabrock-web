@@ -12,7 +12,7 @@
     <body>
         <header>        
             <a href="index.php">
-                <img class="logo" src="image/kabrock-removebg-preview.png">
+                <img class="logo" src="/image/Kabrock-logo-remove test 2.png">
             </a>
             <div class="header_div">
                 <h1>Kabrock Web</h1>
@@ -20,7 +20,7 @@
                 <div class="breadcrumbs"> <!--Chemin d'accès--> 
                     <h2><a href="index.php">Index</a></h2>
                     <p>&nbsp;&gt; </p> <!--Permet de faire un espace + '>' et de finir avec un espace--> 
-                    <h2><a href="cours.php">Cours</a></h2>
+                    <h2><a href="cours.php">Cours de Culture Génerale</a></h2>
                 </div>
             </div>
             <div class="topright">
@@ -29,7 +29,6 @@
         </header>
         <div class="All-contents">
             <div class="cge">
-                <h2>Cours de CGE</h2>
                 <div class="media">
                     <h3>Vidéo de présentation du "Voyage à Paris"</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/8tAJ-EAPu0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
