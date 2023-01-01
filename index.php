@@ -1,3 +1,12 @@
+<?php
+  // Initialiser la session
+  session_start();
+  // Vérifiez si l'utilisateur est connecté, sinon redirigez-le vers la page de connexion
+  /*if(!isset($_SESSION["username"])){
+    //header("Location: login.php");
+    exit(); // C'est le exit() qui plante le site lorsque que l'on enleve la redirection a la ligne d'audessus
+  }*/
+  ?>
 <!DOCTYPE html>
 <html>
     <head>   
@@ -19,9 +28,22 @@
                 </br>
                 <h2>Index</h2>
             </div>
-            <div class="topright">
-                <a href="connection.php"><h3>Connection<h3></a>
-            </div>
+            <!--<div class='topright'>
+                    <a href='connection.php'><h3>Connection<h3></a>
+                    <a href='accounts.php'>Kalio</a> // A utiliser en dernier recours si le php plante le site-->
+            <?php
+                if(!isset($_SESSION["username"])){
+                echo "<div class='topright'>
+                    <a href='connection.php'><h3>Connection<h3></a>
+                </div>";
+                }
+                else{
+                    ?>
+                    echo "<div class='topright'>
+                    <a href=accounts.php ><h3><?php echo $_SESSION["username"];?></h3></a>
+                </div>";
+                <?php
+                }?>
         </header>
 
         <div class="options">
