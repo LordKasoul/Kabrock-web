@@ -2,6 +2,7 @@
 <html>
     <head>   
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="#">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link ref="shortcut icon" href="icon kabrock 16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
