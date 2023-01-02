@@ -42,8 +42,21 @@
             <a href="sing-in.php"><h4>S'inscrire</h4></a>$_COOKIE-->
             
             <?php
-                require('config.php');
+                define('DB_SERVER', 'localhost');
+                define('DB_USERNAME', 'root');
+                define('DB_PASSWORD', '');
+                define('DB_NAME', 'registration');
+                 
+                // Connexion à la base de données MySQL 
+                $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+                 
+                // Vérifier la connexion
+                if($conn === false){
+                    die("ERREUR : Impossible de se connecter. " . mysqli_connect_error());
+                }
+
                 session_start();
+
                 if (isset($_POST['username'])){
                 $username = stripslashes($_REQUEST['username']);
                 $username = mysqli_real_escape_string($conn, $username);
