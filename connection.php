@@ -30,21 +30,22 @@
         </header>
         <div class="ZoneSaisie">
 
-        <!-- Ma partie a moi -->
+            <!-- Ma partie a moi -->
 
-        <!--    <h3>Connection</h3>
-            <form action="connection.php" method="POST" class="connect">
-				<label for="fname">Nom d'utilisateur :</label><br>
-				<input name="Pseudo"></input><br>
-				<label for="name">Mot de passe :</label><br>
-				<input name="MDP"></input><br>
-				<input type="submit" name="submit"/>
-			</form>
-            <a href="sing-in.php"><h4>S'inscrire</h4></a>$_COOKIE-->
+            <!--    <h3>Connection</h3>
+                <form action="connection.php" method="POST" class="connect">
+                    <label for="fname">Nom d'utilisateur :</label><br>
+                    <input name="Pseudo"></input><br>
+                    <label for="name">Mot de passe :</label><br>
+                    <input name="MDP"></input><br>
+                    <input type="submit" name="submit"/>
+                </form>
+                <a href="sing-in.php"><h4>S'inscrire</h4></a>$_COOKIE-->
             
             <?php
                 session_start();
-
+                require('config.php');
+                
                 if (isset($_POST['username'])){
                 $username = stripslashes($_REQUEST['username']);
                 $username = mysqli_real_escape_string($conn, $username);

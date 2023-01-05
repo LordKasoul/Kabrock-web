@@ -65,7 +65,7 @@
                             if($res){
                             echo "<div class='sucess'>
                                     <h3>Vous êtes inscrit avec succès.</h3>
-                                    <p>Cliquez ici pour vous <a href='login.php'>connecter</a></p>
+                                    <p>Cliquez ici pour vous <a href='connection.php'>connecter</a></p>
                             </div>";
                             }
                     }else{
@@ -85,7 +85,7 @@
                             value="S'inscrire" class="box-button" />
                             
                                 <p class="box-register">Déjà inscrit? 
-                            <a href="login.php">Connectez-vous ici</a></p>
+                            <a href="connection.php">Connectez-vous ici</a></p>
                             </form>
                         <?php 
                     } ?>

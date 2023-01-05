@@ -32,6 +32,7 @@
                     <a href='connection.php'><h3>Connection<h3></a>
                     <a href='accounts.php'>Kalio</a> // A utiliser en dernier recours si le php plante le site-->
             <?php
+            require('config.php');
                 if(!isset($_SESSION["username"])){
                 echo "<div class='topright'>
                     <a href='connection.php'><h3>Connection<h3></a>
@@ -41,8 +42,8 @@
                     ?>
                     echo "<div class='topright'>
                     <a href=accounts.php ><h3><?php echo $_SESSION["username"];?></h3></a>
-                </div>";
-                <?php
+                    </div>";
+                    <?php
                 }?>
         </header>
 
