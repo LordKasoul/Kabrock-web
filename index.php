@@ -34,14 +34,12 @@
             <?php
             require('config.php');
                 if(!isset($_SESSION["username"])){
-                echo "<div class='topright'>
-                    <a href='connection.php'><h3>Connection<h3></a>
-                </div>";
+                    echo "<div class='topright'> <a href='connection.php'><h3>Connection<h3></a></div>";
                 }
                 else{
                     ?>
-                    echo "<div class='topright'>
-                    <a href="accounts.php"><h3><?php echo $_SESSION["username"];?></h3></a>
+                    <div class='topright'>
+                        <a href="accounts.php"><h3><?php echo $_SESSION["username"];?></h3></a>
                     </div>";
                     <?php
                 }?>
