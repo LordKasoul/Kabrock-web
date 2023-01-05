@@ -41,7 +41,7 @@
                 else{
                     ?>
                     echo "<div class='topright'>
-                    <a href=accounts.php ><h3><?php echo $_SESSION["username"];?></h3></a>
+                    <a href="accounts.php"><h3><?php echo $_SESSION["username"];?></h3></a>
                     </div>";
                     <?php
                 }?>
