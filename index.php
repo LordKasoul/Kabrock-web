@@ -9,7 +9,7 @@
   ?>
 <!DOCTYPE html>
 <html>
-    <head>   
+    <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link ref="shortcut icon" href="icon kabrock 16.png">
@@ -19,7 +19,7 @@
     <title>Kabrock web</title>
     </head>
     <body>
-        <header>        
+        <header>
             <a href="index.php">
                 <img class="logo" src="/image/Kabrock-logo-remove test 2.png">
             </a>
@@ -32,17 +32,16 @@
                     <a href='connection.php'><h3>Connection<h3></a>
                     <a href='accounts.php'>Kalio</a> // A utiliser en dernier recours si le php plante le site-->
             <?php
-            require('config.php');
+                require('config.php');
                 if(!isset($_SESSION["username"])){
-                    echo "<div class='topright'> <a href='connection.php'><h3>Connection<h3></a></div>";
-                }
-                else{
-                    ?>
-                    <div class='topright'>
-                        <a href="accounts.php"><h3><?php echo $_SESSION["username"];?></h3></a>
-                    </div>";
+                    ?> <div class='topright'> <a href='connection.php'><h3>Connection<h3></a></div>
+               <?php }else{
+             ?>
+                        <div class='topright'>
+                            <a href="accounts.php"><h3><?php echo $_SESSION["username"];?></h3></a>
+                        </div>";
                     <?php
-                }?>
+                        }?>
         </header>
 
         <div class="options">

@@ -45,7 +45,7 @@
             <?php
                 session_start();
                 require('config.php');
-                
+
                 if (isset($_POST['username'])){
                 $username = stripslashes($_REQUEST['username']);
                 $username = mysqli_real_escape_string($conn, $username);
@@ -76,7 +76,7 @@
                 <input type="password" class="box-input" name="password" placeholder="Mot de passe">
                 <input type="submit" value="Connexion " name="submit" class="box-button">
                 <p class="box-register">Vous êtes nouveau ici? 
-                <a href="register.php">S'inscrire</a>
+                <a href="sing-in.php">S'inscrire</a>
                 </p>
                 <?php if (! empty($message)) { ?>
                     <p class="errorMessage"><?php echo $message; ?></p>
